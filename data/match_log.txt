@@ -1,0 +1,179 @@
+APUEC MATCH RESULTS LOG
+Generated: 1752045662
+
+=== COMPLETED MATCHES ===
+Match #1
+Stage: Qualifier
+Player 1: Tom Anderson (Rank: 1)
+Player 2: Emma Brown (Rank: 2)
+Winner: Tom Anderson
+
+=== PLAYER STATISTICS ===
+Player ID: 101
+Name: Alex Chen
+University: Asia Pacific University
+Game: League of Legends
+Ranking: 1
+Record: 0-0
+Status: Active
+
+Player ID: 102
+Name: Sarah Wong
+University: University of Malaya
+Game: League of Legends
+Ranking: 2
+Record: 0-0
+Status: Active
+
+Player ID: 103
+Name: Michael Tan
+University: Sunway University
+Game: League of Legends
+Ranking: 3
+Record: 0-0
+Status: Active
+
+Player ID: 104
+Name: Jessica Lee
+University: Taylor's University
+Game: League of Legends
+Ranking: 4
+Record: 0-0
+Status: Active
+
+Player ID: 105
+Name: David Lim
+University: MMU
+Game: League of Legends
+Ranking: 5
+Record: 0-0
+Status: Active
+
+Player ID: 106
+Name: Emily Ng
+University: UCSI University
+Game: League of Legends
+Ranking: 6
+Record: 0-0
+Status: Active
+
+Player ID: 107
+Name: Ryan Goh
+University: HELP University
+Game: League of Legends
+Ranking: 7
+Record: 0-0
+Status: Active
+
+Player ID: 108
+Name: Michelle Chong
+University: Nottingham Malaysia
+Game: League of Legends
+Ranking: 8
+Record: 0-0
+Status: Active
+
+Player ID: 201
+Name: John Smith
+University: Asia Pacific University
+Game: Valorant
+Ranking: 1
+Record: 0-0
+Status: Active
+
+Player ID: 202
+Name: Maria Garcia
+University: University of Malaya
+Game: Valorant
+Ranking: 2
+Record: 0-0
+Status: Active
+
+Player ID: 203
+Name: Kevin Zhang
+University: Sunway University
+Game: Valorant
+Ranking: 3
+Record: 0-0
+Status: Active
+
+Player ID: 204
+Name: Lisa Kim
+University: Taylor's University
+Game: Valorant
+Ranking: 4
+Record: 0-0
+Status: Active
+
+Player ID: 205
+Name: Ahmed Hassan
+University: MMU
+Game: Valorant
+Ranking: 5
+Record: 0-0
+Status: Active
+
+Player ID: 206
+Name: Sophie Turner
+University: UCSI University
+Game: Valorant
+Ranking: 6
+Record: 0-0
+Status: Active
+
+Player ID: 207
+Name: James Wilson
+University: HELP University
+Game: Valorant
+Ranking: 7
+Record: 0-0
+Status: Active
+
+Player ID: 208
+Name: Nina Patel
+University: Nottingham Malaysia
+Game: Valorant
+Ranking: 8
+Record: 0-0
+Status: Active
+
+Player ID: 301
+Name: Tom Anderson
+University: Asia Pacific University
+Game: DOTA 2
+Ranking: 1
+Record: 1-0
+Status: Active
+
+Player ID: 302
+Name: Emma Brown
+University: University of Malaya
+Game: DOTA 2
+Ranking: 2
+Record: 0-1
+Status: Active
+
+Player ID: 303
+Name: Chris Lee
+University: Sunway University
+Game: DOTA 2
+Ranking: 3
+Record: 0-0
+Status: Active
+
+Player ID: 304
+Name: Olivia Davis
+University: Taylor's University
+Game: DOTA 2
+Ranking: 4
+Record: 0-0
+Status: Active
+
+Player ID: 2
+Name: Test
+University: APU
+Game: Valorant
+Ranking: 9
+Record: 0-0
+Status: Active
+
