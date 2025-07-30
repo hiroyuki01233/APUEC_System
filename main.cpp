@@ -2,6 +2,7 @@
 #include <string>
 #include <cstdlib>
 #include "tasks/Task1_Scheduler.hpp"
+#include "tasks/Task2_Registration.hpp"
 
 using namespace std;
 
@@ -18,7 +19,7 @@ void displayMainMenu() {
     cout << "    APUEC SYSTEM - MAIN MENU\n";
     cout << "=========================================\n";
     cout << "1. Match Scheduling & Player Progression\n";
-    cout << "2. Tournament Registration (Not Available)\n";
+    cout << "2. Tournament Registration & Player Queueing\n";
     cout << "3. Spectator Management (Not Available)\n";
     cout << "4. Result Logging (Not Available)\n";
     cout << "0. Exit System\n";
@@ -38,6 +39,22 @@ void displayTask1Menu() {
     cout << "8. View Tournament Bracket\n";
     cout << "9. View Match History\n";
     cout << "10. Save Match Results to File\n";
+    cout << "0. Back to Main Menu\n";
+    cout << "Enter your choice: ";
+}
+
+void displayTask2Menu() {
+    cout << "\n=== TOURNAMENT REGISTRATION & PLAYER QUEUEING ===\n";
+    cout << "1. Register New Player\n";
+    cout << "2. Process Check-ins\n";
+    cout << "3. Handle Player Withdrawal\n";
+    cout << "4. Process Waitlist\n";
+    cout << "5. View Registration Status\n";
+    cout << "6. View All Queues\n";
+    cout << "7. View Tournament Participants\n";
+    cout << "8. Add Sample Registration Data\n";
+    cout << "9. Data Structure Information\n";
+    cout << "10. Save Registration Data to File\n"; 
     cout << "0. Back to Main Menu\n";
     cout << "Enter your choice: ";
 }
@@ -165,14 +182,90 @@ void handleTask1(Task1_Scheduler& scheduler) {
     }
 }
 
+void handleTask2(Task2_Registration& registration) {
+    int choice;
+    
+    while (true) {
+        displayTask2Menu();
+        cin >> choice;
+        
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(10000, '\n');
+            cout << "Invalid input. Please enter a number.\n";
+            continue;
+        }
+        
+        cin.ignore();
+        
+        switch (choice) {
+            case 1:
+                registration.registerPlayer();
+                break;
+                
+            case 2:
+                registration.checkInPlayer();
+                break;
+                
+            case 3:
+                registration.handleWithdrawal();
+                break;
+                
+            case 4:
+                registration.processWaitlist();
+                break;
+                
+            case 5:
+                registration.displayRegistrationStatus();
+                break;
+                
+            case 6:
+                registration.displayAllQueues();
+                break;
+                
+            case 7:
+                registration.displayCheckedInPlayers();
+                break;
+                
+            case 8:
+                registration.addSampleRegistrationData();
+                break;
+                
+            case 9:
+                registration.showDataStructureInfo();
+                break;
+
+             case 10:                                    
+                registration.saveRegistrationData();    
+                break; 
+                
+            case 0:
+                return;
+                
+            default:
+                cout << "Invalid choice. Please try again.\n";
+        }
+        
+        cout << "\nPress Enter to continue...";
+        cin.get();
+    }
+}
+
 int main() {
     Task1_Scheduler scheduler;
+    Task2_Registration registration; // Tournament capacity for registration
     int choice;
     
     cout << "=========================================\n";
     cout << "  WELCOME TO APUEC MANAGEMENT SYSTEM\n";
     cout << "  Asia Pacific University Esports\n";
     cout << "  Championship Management System\n";
+    cout << "=========================================\n";
+    cout << "Tasks Available:\n";
+    cout << "✅ Task 1: Match Scheduling & Player Progression\n";
+    cout << "✅ Task 2: Tournament Registration & Player Queueing\n";
+    cout << "⏳ Task 3: Spectator Management (Coming Soon)\n";
+    cout << "⏳ Task 4: Result Logging (Coming Soon)\n";
     cout << "=========================================\n";
     
     while (true) {
@@ -192,14 +285,18 @@ int main() {
                 break;
                 
             case 2:
+                handleTask2(registration);
+                break;
+                
             case 3:
             case 4:
                 cout << "\nThis module is not available yet.\n";
-                cout << "Only Task 1 (Match Scheduling) is implemented.\n";
+                cout << "Currently implemented: Task 1 and Task 2\n";
                 break;
                 
             case 0:
                 cout << "\nThank you for using APUEC System!\n";
+                cout << "Tasks completed: Task 1 (Match Scheduling) + Task 2 (Registration)\n";
                 cout << "Goodbye!\n";
                 return 0;
                 

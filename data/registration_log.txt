@@ -1,0 +1,24 @@
+APUEC TOURNAMENT REGISTRATION LOG
+Generated: Mon Jul 21 23:36:14 2025
+System Capacity: 64 players
+========================================
+
+=== PRIORITY REGISTRATION QUEUE ===
+Total Players: 0
+
+=== REGULAR REGISTRATION QUEUE ===
+Total Players: 0
+
+=== TOURNAMENT PARTICIPANTS ===
+Total Players: 0
+
+=== WAITING LIST (REPLACEMENT QUEUE) ===
+Total Players: 0
+
+=== REGISTRATION SUMMARY ===
+Priority Queue: 0 players
+Regular Queue: 0 players
+Tournament Participants: 0 players
+Waiting List: 0 players
+Total Registered: 0 players
+Remaining Spots: 64 spots
