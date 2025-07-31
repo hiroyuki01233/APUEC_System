@@ -5,7 +5,6 @@ TARGET = apuec_system
 SRCS = main.cpp \
        shared/Player.cpp \
        shared/Stack.cpp \
-       shared/LinkedList.cpp \
        shared/HashMap.cpp \
        shared/Queue.cpp \
        shared/PriorityQueue.cpp \
